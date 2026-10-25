@@ -14,7 +14,7 @@ arrives, it prints the layer to stdout and displays an on-screen indicator.
 ## Host requirements
 
 ### Linux
-
+- QMK tools installed and udev rules deployed (utils/install_udev.sh in official qmk repo)
 - Access to the keyboard's `/dev/hidraw*` console interface.
 - A notification backend in `PATH` and running in the graphical session:
   - **SwayNC** (default): `notify-send` plus `gdbus` or `dbus-send`, and a
